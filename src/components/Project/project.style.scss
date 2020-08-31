@@ -1,0 +1,69 @@
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .card {
+    width: 32%;
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+      height: 18rem;
+    }
+
+    .card-body {
+      .card-text {
+        max-height: 9.4rem;
+        overflow: hidden;
+        margin-bottom: 2rem;
+      }
+
+      div {
+        margin-top: 1rem;
+        position: absolute;
+        bottom: 0.2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 73rem) {
+  .project-card {
+    .card {
+      img {
+        height: 15rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 61rem) {
+  .project-card {
+    .card {
+      width: 45%;
+
+      img {
+        height: 15rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 46rem) {
+    .project-heading {
+        width: 90%;
+        
+    }
+  .project-card {
+    .card {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 1.5rem;
+
+      img {
+        height: 15rem;
+      }
+    }
+  }
+}

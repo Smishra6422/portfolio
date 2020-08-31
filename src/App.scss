@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@import "./global.scss";
+
+.light-theme {
+  @include lightTheme();
+}
+
+.dark-theme {
+  @include darkTheme();
+}
+
+
+
+/* body {
+  background-image: linear-gradient(to bottom right, #fff8f8, #fff8f8);
+  font-family: "Red Hat Display", sans-serif;
+} */
+
+/* p {
+  font-family: "Red Hat Text", sans-serif;
+} */
+
+.App {
+  width: 100%;
+}

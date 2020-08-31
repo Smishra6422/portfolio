@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import "./App.scss";
+import Navbar from "./components/Navbar/Navbar.component";
+import { Switch, Route } from "react-router-dom";
+import Home from "./components/Home/Home.component";
+import { ThemeContext } from "./Context/theme.context";
+import Footer from "./components/Footer/Footer.component";
+import Project from "./components/Project/Project.component";
+import Certificate from "./components/Certificate/Certificate.component";
+import About from "./components/About/About.component";
 
 function App() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${theme === "light" ? " light-theme" : "dark-theme"}`}>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/project" component={Project} />
+        <Route exact path="/certificate" component={Certificate} />
+        <Route exact path="/about" component={About} />
+      </Switch>
+      <Footer />
     </div>
   );
 }

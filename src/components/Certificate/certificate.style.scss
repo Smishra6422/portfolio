@@ -1,0 +1,55 @@
+.certificate-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+        width: 32%;
+        margin-bottom: 2rem;
+
+        img {
+            width: 100%;
+            height: 18rem;
+        }
+    }
+}
+
+@media (max-width: 73rem) {
+    .certificate-card {
+      .card {
+        img {
+          height: 15rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 61rem) {
+    .certificate-card {
+      .card {
+        width: 45%;
+  
+        img {
+          height: 15rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 46rem) {
+      .certificate-heading {
+          width: 90%;
+          
+      }
+    .certificate-card {
+      .card {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+  
+        img {
+          height: 15rem;
+        }
+      }
+    }
+  }

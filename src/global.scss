@@ -1,0 +1,156 @@
+@mixin lightTheme {
+  background-image: linear-gradient(to bottom right, #fff8f8, #fff8f8);
+
+  .fa-moon {
+    color: #111;
+  }
+
+  button {
+    background: #fb4c47;
+    color: #fff;
+  }
+  h2 {
+    color: #fb4c47;
+  }
+
+  h4 {
+    color: #fb4c47;
+  }
+
+  h5 {
+    color: #035755;
+  }
+  h3 {
+    color: #035755;
+  }
+
+  .skill-container {
+    p {
+      background: #fb4c47;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #024d4b;
+  }
+
+  .Resume {
+    background: #fb4c47;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .social-button {
+    border: 1px solid #035755;
+    span {
+      color: #035755;
+      
+    }
+  }
+
+  .fa-link,.fa-github {
+    font-size: 1.3rem;
+  }
+
+  .card-body {
+    h4 {
+      color: #035755;
+    }
+  }
+
+  .card-text {
+  
+      color: #035755;
+  
+  }
+  .fa-file-download {
+    font-size: 1.7rem;
+  }
+  .navbar-item { 
+    background: #fff;
+  }
+}
+
+@mixin darkTheme {
+  background: #121212;
+
+  button {
+    background: #272c34;
+    color: #fff;
+  }
+
+  h2{
+    color: #fff;
+  }
+
+  h4 {
+    color: #fff;
+  }
+
+  h5 {
+    color: #fff;
+  }
+
+  h3 {
+    color: #fff;
+  }
+
+  .card-header {
+    color: #111;
+  }
+
+  .skill-title {
+    color: #fb4c47;
+  }
+
+  .skill-container {
+    //   color: #05f29b; //Greenish color
+    p {
+      background: #fb4c47;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .card-body {
+    background: #272c34;
+  }
+
+  .fa-link,.fa-github {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  .Resume {
+    background: #fb4c47;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .social-button {
+    border: 1px solid #fff;
+    background: #272c34;
+    span {
+      color: #fff;
+      
+    }
+}
+.fa-file-download {
+  font-size: 1.7rem;
+}
+
+.navbar-item { 
+  background: #272c34;
+}
+
+}
