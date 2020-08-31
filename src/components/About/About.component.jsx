@@ -11,10 +11,10 @@ function About() {
         <div class="card-body">
           <h5 class="card-title">MERN STACK DEVELOPER</h5>
           <p class="card-text">
-            I am a full stack developer with node.js and I seeking challenges
-            related to web development where I can work on real life projects,
-            enhance my knowledge and put my 100 % in organization’s growth .
-            Currently I am learning mern stack development.
+            I am seeking challenges related to web development where I can work
+            on real life projects, enhance my knowledge and put my 100 % in
+            organization’s growth . Currently I am learning mern stack
+            development.
           </p>
         </div>
       </div>

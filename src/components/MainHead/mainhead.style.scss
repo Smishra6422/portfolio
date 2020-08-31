@@ -21,6 +21,22 @@
         margin-bottom: 1rem;
         width: 75%;
       }
+
+      .developer-category {
+        height: 2.75rem;
+
+        span {
+          display: flex;
+
+          h5:after {
+            content: "|";
+          }
+
+          .typed-cursor {
+            display: none;
+          }
+        }
+      }
   
       h4 {
         // color: #fa5652;

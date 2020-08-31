@@ -6,11 +6,11 @@
 	.st0{fill:#FFF8F8;}
 	.st1{fill:#2A73CC;}
 	.st2{font-family:'ArialMT';}
-	.st3{font-size:842.9457px;}
+	.st3{font-size:627.7621px;}
 </style>
 <g>
 	<rect x="-183.5" y="0.5" class="st0" width="2257" height="1079"/>
 	<path d="M2073,1v1078H-183V1H2073 M2074,0H-184v1080h2258V0L2074,0z"/>
 </g>
-<text transform="matrix(0.379 0 0 1 80.3403 820.8242)" class="st1 st2 st3">COURSERA</text>
+<text transform="matrix(0.3501 0 0 1 368.3403 798.6943)" class="st1 st2 st3">COURSERA</text>
 </svg>

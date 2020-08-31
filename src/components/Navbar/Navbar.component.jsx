@@ -20,9 +20,7 @@ const Navbar = () => {
           <img src={Logo} className="App-logo" alt="logo" />
         </Link>
         <Link>
-          {/* <i class="fas fa-ellipsis-h"></i>s */}
           <i class="fas fa-bars" onClick={displayNavbar}></i>
-          {/* <img src={Menu} alt="Menu_Icon"  /> */}
         </Link>
       </div>
       <div className={flag ? "navbar-lnks" : "hide-navbar-links"}>
