@@ -1,12 +1,11 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import "./mainhead.style.scss";
 import MainHeadImage from "../../asset/images/portfolio_head.svg";
 // import Typical from "react-typical";
 import Typed from "react-typed";
-import { ThemeContext } from "../../Context/theme.context";
 
 const MainHead = () => {
-  const [skills, setSkills] = useState([
+  const [skills] = useState([
     "HTML",
     "CSS",
     "React",
@@ -17,7 +16,6 @@ const MainHead = () => {
     "Express.JS",
     "MongoDB",
   ]);
-  const { theme } = useContext(ThemeContext);
   return (
     <div className="main-head-container">
       <div className="main-head-detail-container">
@@ -37,28 +35,10 @@ const MainHead = () => {
             backSpeed={90}
             loop
           >
-            <h5 />
+            <h5>{}</h5>
           </Typed>
         </div>
 
-        {/* {theme === "dark" && (
-          <div>
-            <Typical
-              loop={Infinity}
-              steps={[
-                "MERN STACK DEVELOPER",
-                1500,
-                "REACT DEVELOPER",
-                1500,
-                "FRONTEND DEVELOPER",
-                1500,
-                "WEB DEVELOPER",
-                1500,
-              ]}
-              wrapper="h5"
-            />
-          </div>
-        )} */}
         <div>
           <h5 className="skill-title">SKILLS</h5>
         </div>
